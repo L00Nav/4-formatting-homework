@@ -5,31 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kayosse</title>
-    <link rel="stylesheet" href="order.css">
+    <link id="sheetOfStyle" rel="stylesheet" href="chaos.css">
+    <script>
+        function doOppression()
+        {
+            document.getElementById("sheetOfStyle").setAttribute("href", "order.css");
+            document.title = "Order";
+        }
+        function revolt()
+        {
+            document.getElementById("sheetOfStyle").setAttribute("href", "chaos.css");
+            document.title = "Kayosse";
+        }
+    </script>
 </head>
 <body>
     <main>
+        <div id="chaos-interface">
+            <p >
+                Oh no! It's homework time and the elements have scattered! We must...
+            </p>
+            <button id="oppress-button" onclick="doOppression()">oppress!</button>
+        </div>
         <div class="pc">
-            <div class="cc" id="c1">Block 1</div>
-            <div class="cc" id="c2">Block 2</div>
+            <div class="cc" id="c1"><p class="order-text">Block 1</p></div>
+            <div class="cc" id="c2"><p class="order-text">Block 2</p></div>
         </div>
         <div class="pp">
             <div class="pc" id="pc2">
-                <div class="cc" id="c3">Block 3</div>
-                <div class="cc" id="c4">Block 4</div>
-                <div class="cc" id="c5">Block 5</div>
+                <div class="cc" id="c3"><p class="order-text">Block 3</p></div>
+                <div class="cc" id="c4"><p class="order-text">Block 4</p></div>
+                <div class="cc" id="c5"><p class="order-text">Block 5</p></div>
             </div>
             <div class="pc" id="pc3">
-                <div class="cc" id="c6">Block 6</div>
-                <div class="cc" id="c7">Block 7</div>                
-                <div class="cc" id="c8">Block 8</div>
-                <div class="cc" id="c9">Block 9</div>
+                <div class="cc" id="c6"><p class="order-text">Block 6</p></div>
+                <div class="cc" id="c7"><p class="order-text">Block 7</p></div>                
+                <div class="cc" id="c8"><p class="order-text">Block 8</p></div>
+                <div class="cc" id="c9"><p class="order-text">Block 9</p></div>
             </div>
         </div>
         <div class="pc" id="pc4">
-            <div class="cc" id="c10">Block 10</div>
-            <div class="cc" id="c11">Block 11</div> 
+            <div class="cc" id="c10"><p class="order-text">Block 10</p></div>
+            <div class="cc" id="c11"><p class="order-text">Block 11</p></div> 
         </div>
     </main>
+    <div id="order-interface">
+        <p >
+            Nice! Now we just need to hope that the shapes don't do a...
+        </p>
+        <button id="revolt-button" onclick="revolt()">R E V O L U T I O N</button>
+    </div>
 </body>
 </html>

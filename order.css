@@ -12,14 +12,19 @@ main {
     font-size: 0px;
 }
 
+.order-text {
+    font-size: 24px;
+}
+
 .cc {
     background-color: #cccccc;
     color:#222222;
-    height: 40px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 20px;
 }
 
 .pc {
+    background-color: #555555;
     width: 100%;
     display: inline-block;
     padding: 0%;
@@ -29,7 +34,12 @@ main {
 .pp {
     background-color: #777777;
     width: 100%;
+    border-radius: 10px;
     display: inline-block;
+}
+
+.chaos-text {
+    display: none;
 }
 
 #c1 {
@@ -88,13 +98,29 @@ main {
 }
 
 #c10 {
-    height: 80px;
+    height: 160px;
     float: left;
     width: 35%;
 }
 
 #c11 {
-    height: 80px;
+    height: 160px;
     float: right;
     width: 35%;
+}
+
+#chaos-interface {
+    display: none;
+}
+
+#order-interface {
+    text-align: center;
+    font-size: 24px;
+}
+
+#revolt-button {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 64px;
+    background-color:#2b5b2b;
+    color:#8421b3;
 }
