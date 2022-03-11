@@ -1,0 +1,100 @@
+body {
+    background-color:#2b2b2b;
+    color:#eeeeee;
+    text-align: center;
+}
+
+main {
+    background-color: #3f3f3f;
+    margin-top: 60px;
+    width: 50%;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.cc {
+    background-color: #cccccc;
+    color:#222222;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.pc {
+    width: 100%;
+    display: inline-block;
+    padding: 0%;
+    font-size: 16px;
+}
+
+.pp {
+    background-color: #777777;
+    width: 100%;
+    display: inline-block;
+}
+
+#c1 {
+    float: left;
+    width: 25%;
+}
+
+#c2 {
+    float: right;
+    width: 50%;
+}
+
+#pc2 {
+    float: left;
+    width: 50%;
+}
+
+#c3 {
+    float: left;
+    width: 70%;
+}
+
+#c4 {
+    float: right;
+    width: 70%;
+}
+
+#c5 {
+    float: left;
+    width: 60%;
+}
+
+#pc3 {
+    float: right;
+    width: 50%;
+}
+
+#c6 {
+    float: right;
+    width: 65%;
+}
+
+#c7 {
+    float: left;
+    width: 50%;
+}
+
+#c8 {
+    float: right;
+    width: 50%;
+}
+
+#c9 {
+    float: left;
+    width: 70%;
+}
+
+#c10 {
+    height: 80px;
+    float: left;
+    width: 35%;
+}
+
+#c11 {
+    height: 80px;
+    float: right;
+    width: 35%;
+}
